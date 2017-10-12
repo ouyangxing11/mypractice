@@ -1,0 +1,18 @@
+<?php
+header("Content-type: text/html; charset=utf-8");
+	$a = 12;
+	if($a%2==0){
+		echo $a."的因数有2<br/>";
+	}
+	if($a%3==0){
+		echo $a."的因数有3<br/>";
+	}
+
+	if($a%4==0){
+		echo $a."的因数有4<br/>";
+	}
+	if($a%6==0){
+		echo $a."的因数有6";
+	}
+
+?>
