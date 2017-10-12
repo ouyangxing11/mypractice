@@ -1,0 +1,30 @@
+<?php
+	$letters[] ='';
+	for($i=65;$i<=90;$i++){
+		
+		$letters[]=chr($i);
+		
+	}
+	for($a=0;$a<=26;$a++){
+		echo $letters[$a]."<br/>";
+	}
+
+
+
+	$num[] = '';
+	$arr = array("a","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z");
+	$b=count($arr);
+	for($i=0;$i<$b;$i++){
+		$num[]= ord($arr[$i]);
+	}
+	print_r($num);
+	
+	for($a=0;$a<=$b;$a++){
+		
+		echo $num[$a]."<br/>";
+	}
+
+
+
+
+?>
