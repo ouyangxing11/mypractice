@@ -1,0 +1,23 @@
+<?php
+header("Content-type: text/html; charset=utf-8");
+	$a=30;
+	$b=1;
+	$arr1='';
+	while($b<=$a){
+
+		if($a%$b==0){
+			echo $a."的因数有".$b;
+		}	
+		$b++;
+		
+		echo "<br/>";
+		$arr1=$b-1;
+	    // max($arr1);
+	}
+	echo $a."的最大因数为".$arr1;
+	echo "<br/>";
+
+	echo date("Y-m-d H:i:s");
+	echo"<hr/>";
+	echo date("Y-m-d H:i:s",strtotime("+1 day"));
+?>
