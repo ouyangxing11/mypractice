@@ -1,0 +1,11 @@
+<?php
+	$num=0;
+	$arr=array("a","c","d","e","u");
+	for($i=0;$i<=4;$i++){
+		if(strstr("aeiouAEIOU",$arr[$i])){
+		$num++;
+		}
+	}	
+	echo $num;
+
+?>
