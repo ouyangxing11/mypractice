@@ -1,0 +1,8 @@
+<?php
+	$arr=array(34,45,56,67,89);
+	$a=array_search(max($arr),$arr);
+	$b=array_search(min($arr),$arr);
+	echo $arr[$a];
+	echo"<br/>";
+	echo $arr[$b];
+?>
